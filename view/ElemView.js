@@ -15,10 +15,10 @@ class ElemView {
 
     #htmlOsszerak(){
         let txt=""; 
-        if(this.ertek===true){
+        if(this.ertek===false){
             txt+= `<div class="lampa sarga" ><p></p></div>`
         }else{
-        txt+= `<div class="lampa sarga" ><p></p></div>`
+        txt+= `<div class="lampa zold"><p></p></div>`
         }
         this.szuloElem.append(txt)
     }
