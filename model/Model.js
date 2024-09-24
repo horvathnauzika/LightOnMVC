@@ -2,8 +2,7 @@ class Modell {
     #lista = [];
     #index;
     #db;
-    constructor() {
-        this.#lista = [false, false, false, false, false,false,false,false,false];
+    constructor() {;
         this.#db = 0;
     }
 

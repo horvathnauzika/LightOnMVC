@@ -5,7 +5,7 @@ class Controller{
     #elemview
 
     constructor() {
-        let lista=[true,true,true,true,true,true,true,true,true]
+        let lista=[false, false, false, false, false,false,false,false,false]
         this.#elemview= new LampakView($('.jatekTer'),lista);
     }
  }
