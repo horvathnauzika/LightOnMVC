@@ -1,4 +1,4 @@
-class Model {
+class View {
     #obj;
     #szuloElem;
     constructor(obj,szuloElem) {
