@@ -15,7 +15,7 @@ class ElemView {
 
     #htmlOsszerak(){
         let txt=""; 
-        if(this.ertek===false){
+        if(this.ertek===true){
             txt+= `<div class="lampa sarga" ><p></p></div>`
         }else{
         txt+= `<div class="lampa zold"><p></p></div>`
