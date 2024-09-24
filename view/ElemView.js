@@ -5,4 +5,7 @@ class Model {
         this.#obj=obj;
         this.#szuloElem=szuloElem;
     }
+    #htmlOsszerak(){
+        
+    }
  }
