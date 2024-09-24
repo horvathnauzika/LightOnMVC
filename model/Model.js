@@ -1,8 +1,9 @@
-class Model {
-    #obj;
-    #szuloElem;
-    constructor(obj,szuloElem) {
-        this.#obj=obj;
-        this.#szuloElem=szuloElem;
+class Modell {
+    #lista = [];
+    #index;
+    #db;
+    constructor() {
+        this.#lista = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
+        this.#db = 0;
     }
  }
