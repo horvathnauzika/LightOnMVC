@@ -22,11 +22,13 @@ main{
       text-align:center;
       font-size: 30px;
       cursor:grab;
-      background-color: green;
   }
   .lampa:hover {
       background-color:bisque
   }
   .sarga{
     background-color: yellow;
+  }
+  .zold{
+    background-color: green;
   }
