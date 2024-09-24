@@ -1,8 +1,17 @@
 class ElemView {
-    #szuloElem;
+    #index;
     constructor(szuloElem) {
-        this.#szuloElem=szuloElem;
+        this.szuloElem=szuloElem;
+        this.kattinthato = true;
         this.#htmlOsszerak();
+        this.elem = $(".elem:last-child");
+    this.pElem = this.elem.children("p");
+    this.elem.on("click", () => {
+      if (this.kattinthato) {
+        this.#sajatEsemenykezelo("kivalaszt");
+        this.kattinthato = false;
+      }
+    });
     }
 
     #htmlOsszerak(){
