@@ -13,5 +13,6 @@ class ElemView {
         txt += "";
         this.#szuloElem.append(txt)
     }
+    
  }
  export default ElemView;

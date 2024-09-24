@@ -3,7 +3,8 @@ class Modell {
     #index;
     #db;
     constructor() {
-        this.#lista = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
+        this.#lista = [false, false, false, false, false,false,false,false,false];
         this.#db = 0;
     }
+
  }
