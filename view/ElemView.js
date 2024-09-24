@@ -5,4 +5,7 @@ class View {
         this.#obj=obj;
         this.#szuloElem=szuloElem;
     }
+    #htmlOsszerak(){
+        
+    }
  }
