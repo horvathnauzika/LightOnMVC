@@ -8,8 +8,9 @@ class ElemView {
     #htmlOsszerak(){
         let txt="";
         for (let i = 0; i< 9; i++) {
-            txt+= `<div class="lampa" id="${i}"></div>`
+            txt+= `<div class="lampa" id="${i}"><p></p></div>`
         }
+        txt += "";
         this.#szuloElem.append(txt)
     }
  }
