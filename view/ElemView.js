@@ -3,7 +3,6 @@ class ElemView {
     constructor(szuloElem,ertek,index) {
         this.#index = index;
         this.szuloElem=szuloElem;
-        this.kattinthato = true;
         this.ertek=ertek;
         this.#htmlOsszerak();
         this.elem = $(".lampa:last");
